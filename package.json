@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=3001 node index.js",
-    "dev": "nodemon index.js",
+    "dev": "gulp & nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Steff",
@@ -15,6 +15,12 @@
     "eslint": "^5.15.3",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-node": "^8.0.1",
+    "gulp": "^4.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
     "nodemon": "^1.18.10"
   },
   "engines": {
@@ -25,6 +31,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "jquery": "^3.4.0",
-    "mongoose": "^5.4.21"
+    "mongoose": "^5.4.21",
+    "static-asset": "^0.6.0"
   }
 }
